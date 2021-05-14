@@ -1,0 +1,23 @@
+#components-layout-demo-fixed .logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.2);
+}
+.site-layout .site-layout-background {
+  background: #fff;
+}
+.linggle-row{
+  margin-top: 5px;
+  padding-top: 8px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+.linggle-row:hover{
+  background-color: rgb(211, 211, 211);
+}
+
+.text-right{
+  text-align: right;
+}
