@@ -30,12 +30,9 @@ export default {
   effects: {
     * GET_translation({ payload }, { put, call, select }) {
       try {
-        // const data = yield call(api.translate, payload);
         const translate2 = yield call(api.translate2, payload);
-        // console.log(data['status'][0][0])
         yield put({
           type: 'SET_translation',
-          // translation1: data['status'][0][0],
           translation2: translate2['translation']
         })
       } catch (error) {
@@ -45,7 +42,6 @@ export default {
     * GET_gtranslation({ payload }, { put, call, select }) {
       try {
         const data = yield call(api.gtranslate, payload);
-        console.log(data)
         yield put({
           type: 'SET_gtranslation',
           payload: data
@@ -56,10 +52,7 @@ export default {
     },
     * GET_linggle({ payload }, { put, call, select }) {
       try {
-        console.log(payload)
         const data = yield call(api.linggle, payload.replaceAll("/", "@"));
-        // const data = yield call(api.linggle, payload);
-        console.log(data)
         yield put({
           type: 'SET_linggle',
           payload: data

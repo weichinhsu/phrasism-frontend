@@ -8,8 +8,6 @@ const { Search } = Input;
 
 
 const App = (props) => {
-  const test = [['rest on our laurels', 12344], ['discuss the issue', 12344], ['discuss the issue', 12344], ['discuss the issue', 12344], ['discuss the issue', 12344], ['discuss the issue', 12344], ['discuss the issue', 12344]]
-
   const [query, setQuery] = useState('');
   const translate = (phrase) => {
     props.dispatch({
@@ -22,7 +20,6 @@ const App = (props) => {
     });
   }
   const dropdownClick = (item) => {
-    console.log(item.key)
     setQuery(item.key)
     translate(item.key)
   }
@@ -90,7 +87,7 @@ const App = (props) => {
               </Row>
               {
                 props.linggle ? props.linggle.result.map(e => 
-                <Row gutter={[16, 24]} style={{ marginTop: 10 }} className="linggle-row">
+                <Row key={e[0]} gutter={[16, 24]} style={{ marginTop: 10 }} className="linggle-row" onClick={()=>{translate(e[0])}}>
                   <Col span={18}>
                     <Col>{e[0]}</Col>
                     <Col style={{ lineHeight: .5 }}><Progress percent={e[2]} showInfo={false} strokeWidth={5} style={{ lineHeight: .5 }} /></Col>
