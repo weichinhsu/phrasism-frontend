@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/phrasism-frontend/static/css/main.f77de2f0.chunk.css",
+    "main.js": "/phrasism-frontend/static/js/main.70d4ee83.chunk.js",
+    "main.js.map": "/phrasism-frontend/static/js/main.70d4ee83.chunk.js.map",
+    "runtime-main.js": "/phrasism-frontend/static/js/runtime-main.cc7b65b8.js",
+    "runtime-main.js.map": "/phrasism-frontend/static/js/runtime-main.cc7b65b8.js.map",
+    "static/css/2.c51d807b.chunk.css": "/phrasism-frontend/static/css/2.c51d807b.chunk.css",
+    "static/js/2.6222d5b1.chunk.js": "/phrasism-frontend/static/js/2.6222d5b1.chunk.js",
+    "static/js/2.6222d5b1.chunk.js.map": "/phrasism-frontend/static/js/2.6222d5b1.chunk.js.map",
+    "index.html": "/phrasism-frontend/index.html",
+    "static/css/2.c51d807b.chunk.css.map": "/phrasism-frontend/static/css/2.c51d807b.chunk.css.map",
+    "static/css/main.f77de2f0.chunk.css.map": "/phrasism-frontend/static/css/main.f77de2f0.chunk.css.map",
+    "static/js/2.6222d5b1.chunk.js.LICENSE.txt": "/phrasism-frontend/static/js/2.6222d5b1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cc7b65b8.js",
+    "static/css/2.c51d807b.chunk.css",
+    "static/js/2.6222d5b1.chunk.js",
+    "static/css/main.f77de2f0.chunk.css",
+    "static/js/main.70d4ee83.chunk.js"
+  ]
+}
