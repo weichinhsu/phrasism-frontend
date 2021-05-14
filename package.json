@@ -2,7 +2,7 @@
   "name": "react-phrasism",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://weichinhsu.github.io/phrasism-frontend",
+  "homepage": "https://weichinhsu.github.io/phrasism-frontend/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
